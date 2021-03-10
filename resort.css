@@ -52,7 +52,9 @@ nav ul li {
 main {
 	min-height:200px;
 	background-color: #C5EEF0;
+
 }
+
 footer {
 	margin-top:0;
 	border-top:1px solid black;
@@ -61,3 +63,18 @@ footer {
 table {width: 60%; margin:auto; border-collapse: collapse;}
 table caption {font-weight: bold;}
 td, th {border: solid 1px; border-collapse: collapse;}
+
+main#gallery {
+	display: flex;
+	overflow: auto;
+	flex-flow: row wrap;
+  }
+  main#gallery img {
+	flex: 1 1 30%;
+	height:250px;
+	padding: 0.2em;;
+  }
+  main#gallery h3{
+	flex-basis: 100%;
+  }
+  

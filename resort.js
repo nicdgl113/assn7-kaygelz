@@ -42,3 +42,17 @@ function randomImage() {
   return `img/img${rand}.jpg`;
 }
 // randomImage();
+function makeMenu() {
+menuNav.appendChild(menuLi); 
+var menuLiA = document.createElement("a"); /// create a
+menuLia = menuLi.appendChild(menuLiA); 
+menuLiA.setAttribute("href", "gallery.html") + i ; // href
+var menuText = document.createTextNode(Gallery);///set text
+menuLiA.appendChild(menuText);
+var anc = document.createElement("a"); ///create anchor
+anc.setAttribute();
+}
+makeMenu();
+
+
+
